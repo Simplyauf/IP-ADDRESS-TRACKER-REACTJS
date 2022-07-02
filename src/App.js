@@ -50,7 +50,7 @@ export default function App() {
 	// FETCHING THE LOCATION DATA OF THE CURRENT USER ON LOAD
 	useEffect(() => {
 		// let ipValue = "";
-		let geoLocationUrl = `http://ipwho.is`;
+		let geoLocationUrl = `https://ipwho.is`;
 
 		getLocation(geoLocationUrl);
 		setIsItCurrentVisitorLocation(true);

@@ -22,8 +22,8 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ## Built With
 
--[React LeafletJs](https://react-leaflet.js.org/)
--[ipwhois api](http://ipwho.is/)
+- [React LeafletJs](https://react-leaflet.js.org/)
+- [ipwhois api](http://ipwho.is/)
 - [React JS](https://reactjs.org/)
 - [TailwindCSS](https://tailwindcss.com)
 
@@ -33,7 +33,10 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ## Live url
 
--   Live Site URL: [IP ADDRESS TRACKER](https://ip-address-tracker-auf.netlify.app/)
+- Live Site URL: [IP ADDRESS TRACKER](https://ip-address-tracker-auf.netlify.app/)
 
 
 ## Screenshots
+![Screenshot  IP ADDRESS TRACKER](https://user-images.githubusercontent.com/89865808/177881783-338a0e46-ee07-4780-9866-70ef42d9eefe.png)
+
+

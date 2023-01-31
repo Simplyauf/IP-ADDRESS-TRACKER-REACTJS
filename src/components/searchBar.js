@@ -16,7 +16,7 @@ export const SearchBar = ({ handleDisplayMapClick, errorModalFn }) => {
 				whshhshsdhdshssd
 			</span>
 			<input required placeholder="Search for any IP address or domain" className="pl-4 placeholder:text-[14px]  md:placeholder:text-[16px] placeholder:font-Rubik lg:text-18px lg:placeholder:text-[18px] tablet:placeholder:text-[16px]   placeholder:font-normal placeholder:text-NeutralColor w-[90%]  text-[18px] rounded-2xl focus:border-none focus focus:outline-none focus:ring-none rounded-tr-none rounded-br-none border-2 h-[50px] input-ipAddress" type="text" />
-			<img className="Btn rounded-xl border-none bg-black rounded-tl-none rounded-bl-none  border-l-0 p-[18px]" src="/images/icon-arrow.svg" onClick={handleDisplayMapClick} alt="" />
+			<img className="Btn rounded-xl border-none bg-black rounded-tl-none rounded-bl-none  border-l-0 p-[18px] cursor-pointer hover:bg-[#333333]" src="/images/icon-arrow.svg" onClick={handleDisplayMapClick} alt="" />
 		</div>
 	);
 };

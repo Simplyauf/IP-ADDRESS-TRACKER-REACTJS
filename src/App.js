@@ -71,7 +71,7 @@ export default function App() {
 
 	const handleDisplayMapClick = (e) => {
 		let ipValue = e.currentTarget.previousElementSibling.value;
-		let geoLocationUrl = `http://ipwho.is/${ipValue}`;
+		let geoLocationUrl = `https://ipwho.is/${ipValue}`;
 
 		// CHECK IF THE INPUT VALUE CONFORMS WITH THE FORMAT OF AN IPADRESS
 		if (/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ipValue)) {
